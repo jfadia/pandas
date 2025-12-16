@@ -86,7 +86,8 @@ dependencies:
   - google-auth
   - natsort  # DataFrame.sort_values doctest
   - numpydoc
-  - pydata-sphinx-theme=0.16
+  # temporary installed with pip with custom patch until released
+  # - pydata-sphinx-theme=0.16
   - pytest-cython  # doctest
   - sphinx
   - sphinx-design
@@ -120,3 +121,4 @@ dependencies:
       - dataframe-api-compat>=0.1.7
       - typing_extensions; python_version<"3.11"
       - tzdata>=2022.7
+      - https://github.com/jorisvandenbossche/pydata-sphinx-theme/archive/refs/heads/v0.16.1+dismissable-announcement-banner.zip
